@@ -1,0 +1,178 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background: #d9dbd1;
+  color: #235B51;
+  font-family: 'Playfair Display', serif;
+}
+
+footer {
+	color: #235B51;
+}
+.image-wrap {
+	max-width: 350px;
+}
+
+.navbar {
+	background-color: #3F5B56;
+	background-color: #235B51;
+	background-color: #54DBC2;
+	background-color: #d4c9bd;
+  	border-color: #d4c9bd;
+}
+
+.navbar-brand {
+	color: #235B51 !important;
+	height: auto;
+}
+
+.navbar-brand > h1 {
+	font-size: 45px !important;
+}
+
+.navbar-brand > h1,
+.navbar-brand > h5 {
+	margin: 0;
+}
+.navbar-brand > h5 {
+	letter-spacing: 12px;
+}
+
+.navbar-brand span {
+	font-size: 34px;
+	font-weight: normal;
+}
+.navbar-right {
+	width: 100%;
+}
+.navbar-button-group {
+	margin-top: 15px;
+}
+
+.admin-area {
+	background: #888;
+	padding: 10px 0;
+}
+
+.admin-area a {
+	color: #fff;
+}
+.jumbotron {
+	background: #d9dbd1;
+	margin-top: 40px;	
+}
+
+.panel {
+	margin-top: 50px;
+}
+
+.panel-default {
+	border-color: #d4c9bd;
+}
+
+.panel-default > .panel-heading {
+	background-color: #d4c9bd;
+  	border-color: #d4c9bd;
+}
+
+.panel-title {
+	font-size: 22px;
+	font-weight: bold;
+	color: #235B51;
+}
+
+.panel-body {
+	background-color: #d9dbd1;
+}
+
+.panel-body a {
+	color: #235B51;
+}
+
+.panel-body a:hover {
+	text-decoration: none;
+}
+.btn-group {
+	width: 100%;
+}
+.btn-galerija {
+	width: 50%;
+	background-color: #d4c9bd;
+	border-color: #d9dbd1;
+	color: #235B51;
+	font-weight: bold;
+	outline: none;
+}
+.btn-galerija:hover,
+.btn-galerija:active,
+.btn-galerija:focus{
+	background-color: #d9dbd1;
+	border-color: #d4c9bd;
+	outline: none;
+}
+.btn-galerija-nav {
+	width: 33%;
+}
+
+.btn-inline {
+	display: inline-block;
+}
+
+.btn-galerija-inverse {
+	background-color: #d9dbd1;
+	border-color: #d4c9bd;
+}
+.btn-galerija-inverse:hover {
+	background-color: #d4c9bd;
+	border-color: #d9dbd1;
+	color: #235B51;
+}
+
+
+
+hr {
+	border-top: 1px solid #d4c9bd;
+}
+
+blockquote {
+	border-left: 5px solid #d4c9bd;
+  	margin-top: 70px;
+}
+
+/* gallery wrap */
+.gallery-wrap {
+	margin-top: 60px;
+}
+
+.caption > h3,
+.caption > p {
+	color: #235B51;
+}
+
+.table {
+	margin-top: 80px;
+}
+table > tbody > tr > td {
+	border-top-color: #d4c9bd !important;
+	vertical-align: middle !important;
+}
+.table--image {
+	max-width: 80px;
+}
+
+.margin-top {
+	margin-top: 80px;
+}
+
+.block {
+	display: block;
+}
+
+.fixed-top {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 9999;
+}
